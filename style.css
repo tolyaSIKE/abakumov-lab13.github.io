@@ -35,3 +35,34 @@ body {
 #btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6 {
     background-color: #8b00ff;
 }
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #000;
+        box-shadow: 0 0 10px #8b00ff;
+    }
+    .logo {
+        width: 70%;
+    }
+    #main-text {
+        font-size: 28pt;
+        text-shadow: 0 0 7px #8b00ff, 0 0 15px #8b00ff;
+    }
+    .card img {
+        height: 175px;
+    }
+    .card {
+        margin-top: 15px;
+        box-shadow: 0 0 15px #8b00ff;
+    }
+    .card-title {
+        font-size: 12pt;
+    }
+    #btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6 {
+        font-size: 12px;
+        padding: 8px 12px;
+        background-color: #8b00ff;
+    }
+    .container {
+        margin: 10px;
+    }
+}
